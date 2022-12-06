@@ -15,14 +15,15 @@ h1, h2{
 }
 
 img{
-	height: 250px;
-	width: 250px;
+	height: 260px;
+	width: 260px;
 }
+
 /**id -seleector - #idName*/
 #landing {
 	/*vh - viewport height - measurement based on the height of the
 	webpage and the device you're currently viewing the page in*/
-	height: 80vh;
+	height: 100vh;
 	/*we can manipulate the contents of an element using flexbox*/
 	/*by default, arranges the content of an element in a row*/
 	display: flex;
@@ -36,7 +37,7 @@ img{
 #gallery {
 	/*vh - viewport height - measurement based on the height of the
 	webpage and the device you're currently viewing the page in*/
-	height: 75vh;
+	height: 100vh;
 	/*we can manipulate the contents of an element using flexbox*/
 	/*by default, arranges the content of an element in a row*/
 	display: flex;
@@ -44,6 +45,32 @@ img{
 	align-items: center;
 	justify-content: center;
 }
+
+#hobbies {
+	/*vh - viewport height - measurement based on the height of the
+	webpage and the device you're currently viewing the page in*/
+	height: 100vh;
+	/*we can manipulate the contents of an element using flexbox*/
+	/*by default, arranges the content of an element in a row*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#projects {
+	/*vh - viewport height - measurement based on the height of the
+	webpage and the device you're currently viewing the page in*/
+	height: 100vh;
+	/*we can manipulate the contents of an element using flexbox*/
+	/*by default, arranges the content of an element in a row*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
 
 ul {
 	list-style: none;
@@ -53,19 +80,38 @@ ul {
 h2 {
 	/*hex decimal can be added as a value for color, this will 
 	allow us to specify a particular color*/
-	color: #007bff;
+	color: #a660a7;
 }
 /*class selector - .classname*/
 .tools {
-	border: 5px solid #f2f2f2;
-	padding: 25px;
-	margin:  20px;
-	height: 200px;
+	border: 5px solid #000000;
+	padding: 40px;
+	margin:  40px;
+	height: 400px;
 	/*width of this element is at least 75% of its parent element
 	or the element that contains*/
 	width: 75%;
 }
 
+.tool{
+	border: 5px solid #ffffff;
+	padding: 40px;
+	margin:  40px;
+	height: 400px;
+	/*width of this element is at least 75% of its parent element
+	or the element that contains*/
+	width: 75%;
+}
+
+.too{
+	border: 5px solid #ffffff;
+	padding: 40px;
+	margin:  40px;
+	height: 500px;
+	/*width of this element is at least 75% of its parent element
+	or the element that contains*/
+	width: 75%;
+}
 html {
 	scroll-behavior: smooth;
 }
